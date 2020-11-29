@@ -1,0 +1,130 @@
+*{
+  margin:0;
+  padding: 30;
+  box-sizing: border-box;
+}
+
+@font-face{
+      font-family: Roboto;
+      src: url(../fonts/Roboto-Regular.ttf);
+}
+
+
+ body{
+ background-image: url(../img/paha.jpg);
+ background-size: 100%;
+ background-attachment: fixed;
+ padding: 30px;
+font-family: Roboto;
+}
+
+main{
+ width: 70%;
+ padding: 40px;
+ background-color: #1eb3a4;
+ margin-left: 15%;
+ text-align: center;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+ box-shadow: 0 0 10px 1px red;
+}
+
+h1{
+ width: 100%;
+ font-size: 50px; 
+}
+
+p{
+ width: 100%;     
+ font-size: 25px;       
+}
+
+
+
+.photo{
+ width: 160px;
+ height: 160px;
+ background-color: red;
+ margin: 16px;
+ transition: all 1s ease;
+ border-radius: 100px;
+}
+
+.photo:hover{
+    transform: rotate(360deg) scale(3);
+}
+
+
+.photo1{
+ background-image: url(../img/gaga.jpg);
+ background-size: 100%;
+}
+
+.photo2{
+ background-image: url(../img/gega.jpg);
+ background-size: 100%;
+}
+
+.photo3{
+ background-image: url(../img/goga.jpg);
+ background-size: 100%;
+}
+
+.photo4{
+ background-image: url(../img/gogo.jpg);
+ background-size: 100%;
+}
+
+.photo5{
+ background-image: url(../img/gege.jpg);
+ background-size: 100%;
+}
+
+.photo6{
+ background-image: url(../img/gigi.jpg);
+ background-size: 100%;
+}
+
+.photo7{
+ background-image: url(../img/hoha.jpg);
+ background-size: 100%;
+}
+
+.photo8{
+ background-image: url(../img/hohoo.jpg);
+ background-size: 100%;
+}
+
+.photo9{
+ background-image: url(../img/hohe.jpg);
+ background-size: 100%;
+}
+
+.photo10{
+ background-image: url(../img/hahe.jpg);
+ background-size: 100%;
+}
+
+.photo11{
+ background-image: url(../img/heha.jpg);
+ background-size: 100%;
+}
+
+.photo12{
+ background-image: url(../img/haha.jpg);
+ background-size: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
